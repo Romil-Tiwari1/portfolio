@@ -14,31 +14,33 @@ Here's what you can expect to find in this repository:
 ### Projects
 - **[Cloud Native Application]:**
   - Developed & Deployed Node.js Rest API app on AWS with fully automated CI/CD pipelines for code build
-and code deploy using GitHub Actions, provisioned infrastructure through Packer to build AMI images 
+    and code deploy using GitHub Actions, provisioned infrastructure through Packer to build AMI images 
   - Implemented VPC, Subnets, Internet Gateway, Route53, Security groups, IAM roles, S3 bucket, RDS, Load
-Balancer, launch template for auto-scaled EC2 instances and CloudWatch using Pulumi template
-[Link to the project folder](https://github.com/Romil-Tiwari1/webapp)
+    Balancer, launch template for auto-scaled EC2 instances and CloudWatch using Pulumi template
+  - [Link to the project folder](https://github.com/Romil-Tiwari1/webapp)
 
 - **[Student-Buddy-Assistant (React | NodeJS| HTML |SCSS)]:**
   - Built a student assistant website using JavaScript, HTML/CSS, and ReactJS, implementing multifunctional UI/UX
-requirements and enhancing user experience [Link to the project folder](https://github.com/Romil-Tiwari1/Student-Buddy-Assistant)
+    requirements and enhancing user experience 
+  - [Link to the project folder](https://github.com/Romil-Tiwari1/Student-Buddy-Assistant)
 
 - **[Monthly Expenditure Book (Java | OOPS| Swing |MySQL)]:**
-  - Crafted a full-stack Java-based application for streamlined budget management and financial analysis [Link to the project folder](https://github.com/Romil-Tiwari1/Monthly-Expenditure-Book)
+  - Crafted a full-stack Java-based application for streamlined budget management and financial analysis 
+  - [Link to the project folder](https://github.com/Romil-Tiwari1/Monthly-Expenditure-Book)
 
 - **[Back testing Trading Strategy (Python | Financial | Market Data Analysis)]:**
   - Designed and implemented various quantitative trading strategies, including trend following and mean
-reversion, and back tested their performance on historical data
-- Utilized Python for comprehensive data analysis and performance evaluation, providing key metrics such
-as returns, volatility, and maximum drawdown to inform trading decisions
-[Link to the project folder](https://github.com/Romil-Tiwari1/Backtest-Trading-Strategy)
+    reversion, and back tested their performance on historical data
+  - Utilized Python for comprehensive data analysis and performance evaluation, providing key metrics such
+    as returns, volatility, and maximum drawdown to inform trading decisions
+  - [Link to the project folder](https://github.com/Romil-Tiwari1/Backtest-Trading-Strategy)
 
 - **[Trading Scripts (Algorithmic Trading | Technical Analysis | Risk Management)]:**
   - Developed automated algorithmic trading strategies, incorporating technical analysis and risk management
 techniques, which increased trade execution speed by 30%
-- Leveraged popular APIs and libraries to access real-time market data, execute trades, and generate
-performance reports, allowing for dynamic and responsive trading strategies
-[Link to the project folder](https://github.com/Romil-Tiwari1/Trading-Scripts)
+  - Leveraged popular APIs and libraries to access real-time market data, execute trades, and generate
+    performance reports, allowing for dynamic and responsive trading strategies
+  - [Link to the project folder](https://github.com/Romil-Tiwari1/Trading-Scripts)
 
 ### Skills
 
@@ -51,7 +53,7 @@ performance reports, allowing for dynamic and responsive trading strategies
 - **Strategic Analysis:** Profitability Analysis, Cost-Benefit Analysis
 - **Data Analytics:** NumPy, Matplotlib, Pandas, SciPy
 - **Wealth Management Models:** ARIMA, Linear Regression, Vector Autoregression, LST Memory
-- **Operational & Project Tools:** Excel, PowerPoint, VS Code, Git, Android Studio, IntelliJ, Jupyter Notebook, MysSQL
+- **Operational & Project Tools:** Excel, PowerPoint, VS Code, Git, Android Studio, IntelliJ, Jupyter Notebook, MySQL
 
 
 
