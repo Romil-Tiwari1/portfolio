@@ -24,7 +24,13 @@ export default function Projects() {
           throw result;
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          // Check if pinnedItems is not null and has edges
+          if (response.data.user.pinnedItems && response.data.user.pinnedItems.edges) {
+            setrepoFunction(response.data.user.pinnedItems.edges);
+          } else {
+            // Handle the case where pinnedItems is null or doesn't have edges
+            throw new Error("Pinned items are not available in the profile data.");
+          }
         })
         .catch(function (error) {
           console.error(
