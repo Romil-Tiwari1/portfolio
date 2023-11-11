@@ -192,7 +192,7 @@ const bigProjects = {
   subtitle: "Self-Learned Projects",
   projects: [
     {
-      image: require("./assets/images/aws.png"),
+      image: require("./assets/images/aws_7.png"),
       projectName: "Cloud Native Application",
       projectDesc: "• Node.JS • AWS • CI/CD • EC2 • VPC • Route53 • SES • S3-Bucket • RDS • Azure • GCP • CloudWatch ",
       footerLink: [
@@ -204,7 +204,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/bull.jpeg"),
+      image: require("./assets/images/trading_1.png"),
       projectName: "Trading Scripts",
       projectDesc: "Implementing ARIMA (AutoRegressive Integrated Moving Average) along with Linear Regression to predict stocks prices for 7 days",
       footerLink: [
@@ -227,7 +227,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/backtest.png"),
+      image: require("./assets/images/backtest_1.png"),
       projectName: "Backtest Trading Strategy",
       projectDesc: "Development and backtesting of trading strategies using Python, to optimize investment decisions in financial markets",
       footerLink: [
@@ -238,7 +238,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/iac.jpeg"),
+      image: require("./assets/images/iac_7.png"),
       projectName: "Infrastructure as Code",
       projectDesc: "Setting up our AWS infrastructure and resources such as VPC, Internet Gateway, Routes utilizing Pulumi",
       footerLink: [
@@ -282,7 +282,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 
@@ -313,7 +313,7 @@ const achievementSection = {
       title: "Financial Markets",
       subtitle:
         "Hands-on foundational concepts of financial markets and assess the value of various financial assets",
-      image: require("./assets/images/yale_1.jpg"),
+      image: require("./assets/images/yale_1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -326,7 +326,7 @@ const achievementSection = {
       title: "Jira Fundamentals",
       subtitle:
         "Learned how to effectively create, manage, and track tasks and projects using Jira's Agile tools",
-      image: require("./assets/images/jira_2.jpeg"),
+      image: require("./assets/images/jira_7.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -339,7 +339,7 @@ const achievementSection = {
       title: "Portfolio Construction",
       subtitle:
         "Learned how to construct and analyze investment portfolios with Python and Computational finance",
-      image: require("./assets/images/edhec_2.png"),
+      image: require("./assets/images/edhec_1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -407,11 +407,12 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-8573761693",
-  email_address: "tiwari.rom@northeastern.edu"
+  email_address: "tiwari.rom@northeastern.edu",
+  display: true 
 };
 
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
