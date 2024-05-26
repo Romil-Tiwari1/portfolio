@@ -22,7 +22,7 @@ const greeting = {
     "Driven by innovation and powered by quantitative prowess: I'm Romil Tiwari, bridging the worlds of Fintech, Software Development, and Quant Trading. Leveraging extensive experience and a strong technical foundation, I engineer solutions that drive profitability and market efficiency. Dive in to explore my journey and the value I bring to the table."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1g-7K-WXaQr0enLnnYZ1ft4oMpWSPp_48/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1fKJJur0YAt9rmqNI58IqjCvfhsBtapBi/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
