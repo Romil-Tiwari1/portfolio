@@ -19,10 +19,10 @@ const greeting = {
   username: "Romil Tiwari",
   title: "Hi all, I'm Romil",
   subTitle: emoji(
-    "Driven by innovation and powered by quantitative prowess: I'm Romil Tiwari, a software engineer by choice and let's say profession. Leveraging extensive experience and a strong technical foundation, I engineer solutions that drive profitability and market efficiency. Dive in to explore my journey and the value I bring to the table."
+    "Hey there! I'm Romil Tiwari, your friendly neighborhood software engineer. If you're here, you probably want to see what 5 years of caffeine-fueled coding, relentless debugging, and the occasional ohh moment looks like. Whether it's taming Java, wrestling with SQL queries, or convincing React to play nice, I've done it all. I've worked with tech giants like Paytm, and Tata Consultancy Services, improving systems, launching new features, and making sure everything runs smoother than a fresh jar of peanut butter."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1fKJJur0YAt9rmqNI58IqjCvfhsBtapBi/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/drive/folders/1VOZMD2Gkm_hfR510uvV4OXX8V6wf7Tgi?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -32,8 +32,7 @@ const socialMediaLinks = {
   github: "https://github.com/Romil-Tiwari1",
   linkedin: "https://www.linkedin.com/in/romil-tiwari/",
   gmail: "romil.tiwari891@gmail.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  leetcode: "https://leetcode.com/u/Romil-Tiwari/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -41,12 +40,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Software Developer with a outside interest in fintech",
+  subTitle: "Software Engineer with a Passion for Cutting-Edge Technology and Financial Solutions",
   skills: [
-    emoji("⚡ Deep expertise in quantitative modeling, financial analysis, and market strategy testing"),
+    emoji("⚡ Proficient in designing, developing, and deploying scalable software solutions, improving performance and efficiency"),
     emoji("⚡ Crafted functionalities for multiple Android applications and spearheaded software development projects"),
-    emoji("⚡ Front-end development with a keen focus on user experience, ensuring seamless interactions"),
-    emoji("⚡ Craft sleek, responsive, and intuitive user interfaces that resonate with target audiences"),
+    emoji("⚡ Leveraged Java to develop and optimize software solutions, and designed and implemented microservices-based architectures using Spring Boot, enhancing performance, scalability, and maintainability"),
+    emoji("⚡ Configured scalable and reliable AWS infrastructure using Pulumi and Terraform, optimizing resource utilization and enhancing system scalability."),
     emoji("⚡ Data and statistical analysis powerhouse to drive actionable insights and decision-making"),
   ],
 
@@ -135,8 +134,8 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "Trading and Investment Scripting",
-      progressPercentage: "70%"
+      Stack: "Testing",
+      progressPercentage: "80%"
     },
     {
       Stack: "Agile Methodology and Project Management",
@@ -153,25 +152,25 @@ const workExperiences = {
   experience: [
 
     {
-      role: "Application Consultant",
+      role: "Software Engineer",
       company: "Paytm Money",
-      companylogo: require("./assets/images/paytm.jpeg"),
+      companylogo: require("./assets/images/pay.png"),
       date: "July 2021 – August 2022",
       descBullets: [
-        "Developed custom software tools using Python in a Linux environment, enhancing project efficiency by 30%",
-        "Analyzed financial data to identify vulnerabilities, effectively reducing potential losses by 20%",
-        "Optimized applications using Java and Python by refining architecture, resulting in a 20% improvement in user experience and 15% more efficient data structure usage"
+        "Created use cases for option trading workflows, leading to the successful launch of a new feature that enabled users to trade options, increasing trading activity by 2%.",
+        "Collaborated on developing a trade monitoring system that identified trade anomalies in real-time and notified the system, enhancing data accuracy by 7%",
+        "Developed a dashboard to analyze rate of return and risk factors of mutual fund investments, empowering clients with informed investment decisions"
       ]
     },
     {
-      role: "Senior Software Engineer",
+      role: "Software Engineer",
       company: "Tata Consultancy Services",
       companylogo: require("./assets/images/tata.jpeg"),
       date: "July 2018 – July 2021",
       descBullets: [
-        "Designed Java-based Android applications focusing on efficient data structures, enhancing responsiveness by 15%",
-        "Directed platform development using object-oriented design for high-throughput systems, achieving a 93% integration rate with targeted APIs",
-        "Managed an Agile team over a $5M+ project, implementing streamlined processes which increase productivity and accelerated project delivery by 75%"
+        "Engineered the Java backend for an Android automotive suite, enabling seamless connectivity for users with applications like Bluetooth, sonar, and HVAC",
+        "Designed a CI/CD pipeline with automated quality checks and offshore setup, reducing review time by 5% and enhancing client trust and satisfaction",
+        "Automated test cases for the Android application using Espresso, Mockito, and TestNG, ensuring robust testing coverage and reliability, which reduced defects by 15% and improved release cycles by 20%"
       ]
     },
   ]
